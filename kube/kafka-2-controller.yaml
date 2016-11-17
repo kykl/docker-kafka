@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: kafka
-          image: quay.io/ukhomeofficedigital/kafka:v0.0.1
+          image: kykl/kafka:0.10.0.1
           imagePullPolicy: Always
           resources:
             limits:
